@@ -1,0 +1,29 @@
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+/.angular
+
+# Node
+/node_modules
+package-lock.json
+npm-debug.log
+yarn-error.log
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.cproject
+.settings/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# System Files
+.DS_Store
+Thumbs.db

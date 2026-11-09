@@ -1,0 +1,165 @@
+/* styles.css - Estilos globales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+}
+
+.header-app {
+  background-color: #1a237e;
+  color: white;
+  padding: 20px 30px;
+  text-align: center;
+}
+
+.header-app h1 {
+  margin-bottom: 15px;
+  font-size: 1.6em;
+}
+
+.menu-navegacion {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.menu-navegacion a {
+  color: #bbdefb;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+.menu-navegacion a:hover,
+.menu-navegacion a.activo {
+  background-color: #3949ab;
+  color: white;
+}
+
+.contenedor-principal {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+.card-container {
+  background: white;
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.card-container h2 {
+  color: #1a237e;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #e8eaf6;
+  padding-bottom: 10px;
+}
+
+.tabla-mvc {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabla-mvc th {
+  background-color: #283593;
+  color: white;
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.tabla-mvc td {
+  padding: 10px 15px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.tabla-mvc tr:hover {
+  background-color: #e8eaf6;
+}
+
+.btn-eliminar {
+  background-color: #e53935;
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-eliminar:hover {
+  background-color: #c62828;
+}
+
+.alerta {
+  text-align: center;
+  color: #757575;
+  padding: 20px;
+  font-style: italic;
+}
+
+.form-container {
+  background: white;
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.form-container h2 {
+  color: #1a237e;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #e8eaf6;
+  padding-bottom: 10px;
+}
+
+.grupo-campo {
+  margin-bottom: 18px;
+}
+
+.grupo-campo label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #424242;
+}
+
+.grupo-campo input,
+.grupo-campo select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #bdbdbd;
+  border-radius: 4px;
+  font-size: 1em;
+  transition: border-color 0.3s;
+}
+
+.grupo-campo input:focus,
+.grupo-campo select:focus {
+  outline: none;
+  border-color: #3949ab;
+}
+
+.btn-guardar {
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.3s;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.btn-guardar:hover {
+  background-color: #1b5e20;
+}
+
